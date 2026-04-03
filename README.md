@@ -35,7 +35,6 @@ almacenadas en la carpeta `/capturas/` del presente repositorio.
 | `F`     | Fill            | Rellena un rango de memoria con un patrón de bytes dado. El patrón se repite cíclicamente hasta cubrir todos los bytes indicados. Ejemplo: `F 200 L40 AB CD EF` rellena 64 bytes desde 0x200 con el patrón AB CD EF. |
 | `U`     | Unassemble      | Desensambla los bytes almacenados en memoria y los traduce a instrucciones ensamblador legibles. Permite verificar qué instrucciones contiene una región de código. |
 | `A`     | Assemble        | Permite escribir instrucciones en lenguaje ensamblador directamente en memoria. El DEBUG las traduce a bytes de código máquina en tiempo real. |
-| `Q`     | Quit            | Sale del depurador DEBUG y regresa al prompt de DOS. |
 
 ---
 
